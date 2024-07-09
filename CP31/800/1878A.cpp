@@ -15,8 +15,6 @@ string solve(int n, int k) {
     auto it = find(v.begin(), v.end(), k);
     if(it != v.end()) return "YES\n";
     else return "NO\n";
-
-
 }
 signed main() {
     int t;
